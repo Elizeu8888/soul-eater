@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: c55b4bc2824375846a1164208fc70b45
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: -5252816984213320552
+    second: idle
+  - first:
+      74: -529086017489758698
+    second: climb
+  - first:
+      74: -3966682908849628711
+    second: Down jump
+  - first:
+      74: 368836484721319964
+    second: Down jump LOOP
+  - first:
+      74: -9024006863972554539
+    second: glide Down
+  - first:
+      74: 7886986915496160185
+    second: glide down LOOP
+  - first:
+      74: 2996115877951734549
+    second: grap Pull to Swing
+  - first:
+      74: -5617028443483201688
+    second: grapple end jump
+  - first:
+      74: -5388218115941190090
+    second: grapple pull
+  - first:
+      74: -3746977434600912340
+    second: grapple retract pull
+  - first:
+      74: 7154935188962668088
+    second: grapple retract swing
+  - first:
+      74: 3196770605218922527
+    second: grapple shoot
+  - first:
+      74: -2078726720170752374
+    second: hardpull
+  - first:
+      74: 4461826734956849724
+    second: land
+  - first:
+      74: 6647750197205921375
+    second: pullLOOP
+  - first:
+      74: 5522812681064789136
+    second: Run
+  - first:
+      74: 84280555199336520
+    second: stomp RUN
+  - first:
+      74: 6180470432964277339
+    second: swingFallLOOP
+  - first:
+      74: -6006188816586724277
+    second: swingLOOP
+  - first:
+      74: -2348932647244305545
+    second: swingRiseLOOP
+  - first:
+      74: -8758845606861176756
+    second: UP jump
+  - first:
+      74: 75147456175348597
+    second: UP jump LOOP
+  - first:
+      74: -3419257869308726280
+    second: walk
+  - first:
+      74: -5323961738821911666
+    second: walk loop
+  - first:
+      74: 4938775368434822463
+    second: weapon dash back
+  - first:
+      74: 4112299729533279654
+    second: weapon dash forward
+  - first:
+      74: -6111619622111352322
+    second: weapon dash left
+  - first:
+      74: 8823982488661389923
+    second: weapon dash right
+  - first:
+      74: -9197327671402486035
+    second: Weapon draw
+  - first:
+      74: 7477788740131433328
+    second: Weapon draw reverse
+  - first:
+      74: 4285817440172945919
+    second: weapon idle
+  - first:
+      74: 8739082100199792030
+    second: weapon Light first
+  - first:
+      74: 3904147749736602411
+    second: weapon Light second
+  - first:
+      74: 1793413568680720241
+    second: Slide start
+  - first:
+      74: 4175688893174724794
+    second: Slide Loop
+  - first:
+      74: -7254038708117199699
+    second: roll
+  - first:
+      74: -6287722041523179113
+    second: Bullet Jump
+  - first:
+      74: -2716956954849129196
+    second: Up arm Spin
+  - first:
+      74: 8542677091501619547
+    second: weapon throwhold
+  - first:
+      74: -5260689619670761087
+    second: weapon throw
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: -4261843864674183689
+    second: walk forward
+  - first:
+      74: 6560452325563419645
+    second: Chill Idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk forward
+      takeName: walk forward
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Chill Idle
+      takeName: Chill Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
