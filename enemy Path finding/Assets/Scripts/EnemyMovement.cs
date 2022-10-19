@@ -23,7 +23,7 @@ namespace Enemy
 
         public Transform checkPointer;
         
-        Rigidbody m_Rigidbody;
+        public Rigidbody m_Rigidbody;
 
 
         public Collider colli;
@@ -82,39 +82,29 @@ namespace Enemy
         {
             RaycastHit[] cols = Physics.RaycastAll(checkPointer.position, navTracker.transform.position - transform.position, 75f );
 
-            float minDist = 24;
+            float minDist = 16f;
             float dist = Vector3.Distance(navTracker.transform.position, transform.position);
 
 
             foreach (RaycastHit c in cols)
             {
-                Debug.DrawRay(transform.position, navTracker.transform.position - transform.position, Color.green);
+                Debug.DrawRay(checkPointer.position, navTracker.transform.position - transform.position, Color.green);
 
-                if (c.transform.gameObject.tag == "ground" || dist > minDist)
+                if (c.transform.gameObject.tag == "ground")
                 {
                     
                     return false;
                 }
-                else
+                else if(c.transform.gameObject.tag != "ground")
                 {
-
                     return true;
                 }
-            }
-
-
-            if (dist > minDist)
-            {
-                return false;
-            }
-            else
-                return true;
-
-
-
-
 
             }
+            return true;
+
+
+        }
 
         public void PlayAnim(string animName)
         {
@@ -220,6 +210,7 @@ namespace Enemy
                 return 0f;
             }
         }
+
 
     }
 }    
